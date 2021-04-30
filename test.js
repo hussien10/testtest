@@ -92,7 +92,7 @@ for(var i=0;i<btn.length;i++){
 
 function one(){
     return new Promise(function(){
-        console.log("welocme")
+        console.log("welocme hussien")
     })
 }
 
