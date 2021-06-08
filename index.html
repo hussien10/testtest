@@ -7,13 +7,20 @@
   <title>Document</title>
 </head>
 <body>
-  dsdasdasd
-  sdsdsdddddad
-  <button class="gbtn">welcome</button>
-  <button class="gbtn">welcome</button>
-  <button class="gbtn">welcome</button>
-  <button class="gbtn">welcome</button>
-  <button class="gbtn">welcome</button>
+<div class="element">
+
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   <script src="test.js"></script>
+  <script>
+    var typed = new Typed('.element', {
+  // Waits 1000ms after typing "First"
+  typeSpeed: 40,
+    backSpeed: 40,
+    fadeOut: true,
+    loop: true,
+  strings: ['First  sentence.', 'Second sentence.']
+});
+  </script>
 </body>
 </html>
